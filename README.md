@@ -1,28 +1,24 @@
-# EvoScan Manuals CDN
+# EvoScan Manuals
 
-Static file hosting for EvoScan manuals and PDFs, served via GitHub Pages to offload bandwidth from WP Engine.
+Mitsubishi Evo workshop manuals, ECU wiring diagrams, tuning guides, ROM files and drivers for the EvoScan platform.
 
-## Structure
+Covers Evo 1-3, 4, 5, 6, 7, 8, 9, X, Colt Ralliart and EvoX SST.
 
-Mirror the WordPress site paths exactly:
+## Contents
 
 ```
-manuals/
-wp-content/uploads/simple-file-list/Manuals/
-wp-content/uploads/2022/01/
-wp-content/uploads/2022/02/
-wp-content/uploads/pdf-previews/
-roms/
-drivers/
+manuals/                                          - Workshop manuals by model
+wp-content/uploads/simple-file-list/Manuals/      - Evo 4-5, 6, 7, 8, 9, X manuals
+wp-content/uploads/2022/01/                        - Tuning guides and ECU reflash guides
+wp-content/uploads/2022/02/                        - ECU connection wiring diagrams
+wp-content/uploads/pdf-previews/                   - Cover page previews for each document
+roms/                                              - ROM files
+drivers/                                           - Device drivers
 ```
 
-## Usage
+## Accessing the Documents
 
-Files are served via GitHub Pages at:
+Files are available at:
 `https://evoscan.github.io/evoscan-manuals/`
 
-The WordPress redirect plugin handles transparent redirection from the original URLs.
-
-## PDF Preview Images
-
-Static PNG previews (first page of each PDF) are stored in `wp-content/uploads/pdf-previews/` and used on the tech-articles page in place of inline PDF embeds.
+The full document library is also browsable at [evoscan.com/tech-articles](https://evoscan.com/tech-articles/).
