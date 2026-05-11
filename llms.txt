@@ -1,0 +1,49 @@
+# Rare Vehicle Workshop Service Vehicle Manuals
+
+This repository contains workshop service manuals, ECU wiring diagrams, tuning guides, ROM files and drivers for Mitsubishi and other vehicles.
+
+## What's here
+
+Workshop manuals (PDF), ECU wiring diagrams, and technical documentation for:
+
+- Mitsubishi Evo 1-3, 4, 5, 6, 7, 8, 9, X (Lancer Evolution)
+- Mitsubishi Colt Ralliart
+- Mitsubishi EvoX SST gearbox
+- Mitsubishi Lancer (2003, 2004-2005 Sedan, 2006 Wagon, 2010, Sportback 2010)
+- Mitsubishi Eclipse (2000-2002, 2010)
+- Mitsubishi Galant 2010
+- Mitsubishi Outlander 2010
+- Mitsubishi Pajero (Sport 1998 Diesel, 2001-2006)
+- Mitsubishi Grandis 2006
+- Mitsubishi Delica L400 (1995, 1999)
+- Mitsubishi Magna / Verada (1995, 2004)
+- Mitsubishi Mirage 1994-1998
+- Mitsubishi 380 Series (Workshop, Body Repair, 2005)
+- Mitsubishi Airtrek (2005, 2006)
+- Mitsubishi 1G/2G Lancer/Eclipse (1995)
+- Mitsubishi 3000GT FSM 1992-1996 (2 volumes)
+- Mitsubishi Wiring Diagrams 1994-2010
+- Mitsubishi Transmission manual 1990-2001
+- Mitsubishi Owners Manuals 2015
+- Subaru STI, Forester 2007, Workshop 2004
+- Toyota Camry 1994-2007, Yaris 1999-2003
+- Holden Captiva 2006-2017
+- Mazda RX-8
+- Hyundai Genesis Coupe fuel system
+- Hyosung GT125-250, GT650SR
+
+## File structure
+
+- `manuals/` — ZIP archives of workshop manuals, split into ≤80MB parts where needed
+- `manuals/mitsubishi/` — Mitsubishi non-Evo models
+- `manuals/other/` — Non-Mitsubishi brands
+- `wp-content/uploads/simple-file-list/Manuals/` — Individual Evo PDFs (Evo4-5, Evo6, Evo7, Evo8, Evo9, EvoX)
+- `wp-content/uploads/2022/01/` — Tuning guides and ECU reflash recovery PDFs
+- `wp-content/uploads/2022/02/` — ECU connection wiring diagrams (Evo 1-3 through EvoX)
+- `wp-content/uploads/pdf-previews/` — Cover page JPEG previews for each document
+- `roms/` — ECU ROM files
+- `drivers/` — Device drivers (Tactrix OpenPort, EcuFlash)
+
+## Served via GitHub Pages
+
+`https://evoscan.github.io/evoscan-manuals/`
